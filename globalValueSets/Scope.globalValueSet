@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Master data</fullName>
+        <default>false</default>
+        <label>Master data</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales</fullName>
+        <default>false</default>
+        <label>Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Services</fullName>
+        <default>false</default>
+        <label>Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Field Services</fullName>
+        <default>false</default>
+        <label>Field Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing</fullName>
+        <default>false</default>
+        <label>Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Sécurité &amp; droits</fullName>
+        <default>false</default>
+        <label>Sécurité &amp; droits</label>
+    </customValue>
+    <customValue>
+        <fullName>Change</fullName>
+        <default>false</default>
+        <label>Change</label>
+    </customValue>
+    <customValue>
+        <fullName>Déploiement</fullName>
+        <default>false</default>
+        <label>Déploiement</label>
+    </customValue>
+    <customValue>
+        <fullName>Lancement</fullName>
+        <default>false</default>
+        <label>Lancement</label>
+    </customValue>
+    <customValue>
+        <fullName>Technical Scope</fullName>
+        <default>false</default>
+        <label>Technical Scope</label>
+    </customValue>
+    <masterLabel>Scope</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
