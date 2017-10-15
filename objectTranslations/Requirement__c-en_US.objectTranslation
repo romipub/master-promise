@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Requirement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Requirements</value>
+    </caseValues>
+    <fields>
+        <label><!-- Business Value --></label>
+        <name>BusinessValue__c</name>
+        <picklistValues>
+            <masterLabel>Différable</masterLabel>
+            <translation><!-- Différable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indispensable</masterLabel>
+            <translation><!-- Indispensable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inutile</masterLabel>
+            <translation><!-- Inutile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Possible</masterLabel>
+            <translation><!-- Possible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Souhaitée</masterLabel>
+            <translation><!-- Souhaitée --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Complexity --></label>
+        <name>Complexity__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.5</masterLabel>
+            <translation><!-- 0.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation><!-- 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gap Description --></label>
+        <name>GapDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gap Identified --></label>
+        <name>GapIdentified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impact on Development --></label>
+        <name>ImpactDevelopment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impact on Flow --></label>
+        <name>ImpactFlow__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent --></label>
+        <name>Parent__c</name>
+        <relationshipLabel><!-- Requirements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Processus --></label>
+        <name>Processus__c</name>
+        <relationshipLabel><!-- Requirements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>Reason__c</name>
+        <picklistValues>
+            <masterLabel>Doublon</masterLabel>
+            <translation><!-- Doublon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evolution des besoins</masterLabel>
+            <translation><!-- Evolution des besoins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Réalisation complexe</masterLabel>
+            <translation><!-- Réalisation complexe --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reference in RFP --></label>
+        <name>ReferenceRfp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Objects --></label>
+        <name>RelatedObjects__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scope --></label>
+        <name>Scope__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solution --></label>
+        <name>Solution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Abandonné</masterLabel>
+            <translation><!-- Abandonné --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arbitrage Requis</masterLabel>
+            <translation><!-- Arbitrage Requis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmé</masterLabel>
+            <translation><!-- Confirmé --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Déclaré</masterLabel>
+            <translation><!-- Déclaré --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En cours de réalisation</masterLabel>
+            <translation><!-- En cours de réalisation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instruction</masterLabel>
+            <translation><!-- Instruction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporté</masterLabel>
+            <translation><!-- Reporté --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Champs / Ecrans</masterLabel>
+            <translation><!-- Champs / Ecrans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Management</masterLabel>
+            <translation><!-- Change Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flux &amp; données</masterLabel>
+            <translation><!-- Flux &amp; données --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fonctionnalité outil</masterLabel>
+            <translation><!-- Fonctionnalité outil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process métier</masterLabel>
+            <translation><!-- Process métier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporting</masterLabel>
+            <translation><!-- Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Règle de gestion</masterLabel>
+            <translation><!-- Règle de gestion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User story</masterLabel>
+            <translation><!-- User story --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Workshop --></label>
+        <name>Workshop__c</name>
+        <relationshipLabel><!-- Requirements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Items --></label>
+        <name>relatedItems__c</name>
+    </fields>
+    <layouts>
+        <layout>Requirement Layout</layout>
+        <sections>
+            <label><!-- Besoin --></label>
+            <section>Besoin</section>
+        </sections>
+        <sections>
+            <label><!-- Estimation --></label>
+            <section>Estimation</section>
+        </sections>
+        <sections>
+            <label><!-- Exigence --></label>
+            <section>Exigence</section>
+        </sections>
+        <sections>
+            <label><!-- Intégration --></label>
+            <section>Intégration</section>
+        </sections>
+        <sections>
+            <label><!-- Liens Personnalisés --></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

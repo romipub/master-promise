@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Solution</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Solution</value>
+    </caseValues>
+    <fields>
+        <label><!-- Assigned To Me --></label>
+        <name>AssignedToMe__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>AssignedTo__c</name>
+        <relationshipLabel><!-- Solution --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requirement --></label>
+        <name>Requirement__c</name>
+        <relationshipLabel><!-- Solution --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Ok: fait dans l&apos;environnement principam
+Terminé: Data dic mis à jour ainsi que tous les environnements concernés --></help>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Do</masterLabel>
+            <translation><!-- To Do --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Validate</masterLabel>
+            <translation><!-- To Validate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validated</masterLabel>
+            <translation><!-- Validated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Advanded Customization</masterLabel>
+            <translation><!-- Advanded Customization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customization</masterLabel>
+            <translation><!-- Customization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Initialization</masterLabel>
+            <translation><!-- Data Initialization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flow</masterLabel>
+            <translation><!-- Flow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specific Development</masterLabel>
+            <translation><!-- Specific Development --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Data Dictionary Update  Required --></label>
+        <name>updateDataDic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specifications Update Required --></label>
+        <name>updateSpec__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Methods Update Required --></label>
+        <name>updateTestMethod__c</name>
+    </fields>
+    <layouts>
+        <layout>Solution Layout</layout>
+        <sections>
+            <label><!-- Actions liées --></label>
+            <section>Actions liées</section>
+        </sections>
+        <sections>
+            <label><!-- Détail --></label>
+            <section>Détail</section>
+        </sections>
+        <sections>
+            <label><!-- Liens Personnalisés --></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
