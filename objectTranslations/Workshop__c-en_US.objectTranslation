@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Workshop</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Workshops</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agenda --></label>
+        <name>Agenda__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date4Report__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration (H) --></label>
+        <name>Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Goal Achievement --></label>
+        <name>GoalAchievement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+        <picklistValues>
+            <masterLabel>La Roche-sur-Yon</masterLabel>
+            <translation><!-- La Roche-sur-Yon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lyon</masterLabel>
+            <translation><!-- Lyon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montparnasse - Paris</masterLabel>
+            <translation><!-- Montparnasse - Paris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nantes</masterLabel>
+            <translation><!-- Nantes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Nb Attendees --></label>
+        <name>Nb_Attendees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nb participants --></label>
+        <name>Nb_Participants__c</name>
+    </fields>
+    <fields>
+        <label><!-- Objectives --></label>
+        <name>Objectives__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phase --></label>
+        <name>Phase__c</name>
+        <picklistValues>
+            <masterLabel>Cadrage</masterLabel>
+            <translation><!-- Cadrage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design</masterLabel>
+            <translation><!-- Design --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Release --></label>
+        <name>Release__c</name>
+        <relationshipLabel><!-- Workshop --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Scope --></label>
+        <name>Scope__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Time --></label>
+        <name>StartTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Done</masterLabel>
+            <translation><!-- Done --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minutes not required</masterLabel>
+            <translation><!-- Minutes not required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minutes sent</masterLabel>
+            <translation><!-- Minutes sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned</masterLabel>
+            <translation><!-- Planned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validated</masterLabel>
+            <translation><!-- Validated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Business</masterLabel>
+            <translation><!-- Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change</masterLabel>
+            <translation><!-- Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Management</masterLabel>
+            <translation><!-- Project Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical</masterLabel>
+            <translation><!-- Technical --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Workshop Layout</layout>
+        <sections>
+            <label><!-- Compléments --></label>
+            <section>Compléments</section>
+        </sections>
+        <sections>
+            <label><!-- Liens Personnalisés --></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+        <sections>
+            <label><!-- Location and Duration --></label>
+            <section>Location and Duration</section>
+        </sections>
+        <sections>
+            <label><!-- Synthèse --></label>
+            <section>Synthèse</section>
+        </sections>
+        <sections>
+            <label><!-- Système --></label>
+            <section>Système</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Create_CR --></label>
+        <name>Create_CR</name>
+    </webLinks>
+</CustomObjectTranslation>

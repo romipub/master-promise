@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Attendee</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Attendees</value>
+    </caseValues>
+    <fields>
+        <label><!-- Attendee --></label>
+        <name>Attendee__c</name>
+        <relationshipLabel><!-- Attendees --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Notification Sent --></label>
+        <name>NotificationSent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Niveau de responsabilité du participant dans cet atelier --></help>
+        <label><!-- RACI --></label>
+        <name>RACI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Invited</masterLabel>
+            <translation><!-- Invited --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Present</masterLabel>
+            <translation><!-- Present --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Workshop --></label>
+        <name>Workshop__c</name>
+        <relationshipLabel><!-- Attendees --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Attendee Layout</layout>
+        <sections>
+            <label><!-- Liens Personnalisés --></label>
+            <section>Liens Personnalisés</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
