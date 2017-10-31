@@ -2,41 +2,41 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value>Processus</value>
+        <value><!-- Processus --></value>
     </caseValues>
     <caseValues>
         <plural>true</plural>
-        <value>Processus</value>
+        <value><!-- Processus --></value>
     </caseValues>
     <fields>
         <label><!-- Description --></label>
         <name>Description__c</name>
     </fields>
     <fields>
-        <label><!-- Master Processus --></label>
+        <label>Processus Maitre</label>
         <name>MasterProcessus__c</name>
-        <relationshipLabel><!-- Child --></relationshipLabel>
+        <relationshipLabel>Processus Enfant</relationshipLabel>
     </fields>
     <fields>
-        <label><!-- No Match with RFP --></label>
+        <label>Non trouvé dans le RFP</label>
         <name>NoMatchedWithRFP__c</name>
     </fields>
     <fields>
-        <label><!-- Process Owner --></label>
+        <label>Responsable du Processus</label>
         <name>ProcessOwner__c</name>
         <relationshipLabel><!-- Processus --></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Release --></label>
+        <label>Version</label>
         <name>Release__c</name>
         <relationshipLabel><!-- Processus --></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Scope --></label>
+        <label>Périmètre</label>
         <name>Scope__c</name>
     </fields>
     <fields>
-        <label><!-- Status --></label>
+        <label>Statut</label>
         <name>Status__c</name>
         <picklistValues>
             <masterLabel>Defined</masterLabel>
@@ -52,19 +52,21 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Title --></label>
+        <label>Titre</label>
         <name>Title__c</name>
     </fields>
+    <gender><!-- Masculine --></gender>
     <layouts>
         <layout>Processus Layout</layout>
         <sections>
-            <label><!-- Business need --></label>
+            <label>Besoins métier</label>
             <section>Business need</section>
         </sections>
         <sections>
-            <label><!-- Links --></label>
+            <label>Liens Personnalisés</label>
             <section>Links</section>
         </sections>
     </layouts>
-    <startsWith>Consonant</startsWith>
+    <nameFieldLabel><!-- # --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
 </CustomObjectTranslation>

@@ -2,18 +2,18 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value>Solution</value>
+        <value>Element de Solution</value>
     </caseValues>
     <caseValues>
         <plural>true</plural>
-        <value>Solution</value>
+        <value>Elements de Solution</value>
     </caseValues>
     <fields>
-        <label><!-- Assigned To Me --></label>
+        <label>Assigné à moi</label>
         <name>AssignedToMe__c</name>
     </fields>
     <fields>
-        <label><!-- Assigned To --></label>
+        <label>Assigné à</label>
         <name>AssignedTo__c</name>
         <relationshipLabel><!-- Solution --></relationshipLabel>
     </fields>
@@ -22,42 +22,42 @@
         <name>Description__c</name>
     </fields>
     <fields>
-        <label><!-- Requirement --></label>
+        <label>Exigence</label>
         <name>Requirement__c</name>
         <relationshipLabel><!-- Solution --></relationshipLabel>
     </fields>
     <fields>
         <help><!-- Ok: fait dans l&apos;environnement principam
 Terminé: Data dic mis à jour ainsi que tous les environnements concernés --></help>
-        <label><!-- Status --></label>
+        <label>Statut</label>
         <name>Status__c</name>
         <picklistValues>
             <masterLabel>Cancelled</masterLabel>
-            <translation><!-- Cancelled --></translation>
+            <translation>Annulé</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>In Progress</masterLabel>
-            <translation><!-- In Progress --></translation>
+            <translation>En cours</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Rejected</masterLabel>
-            <translation><!-- Rejected --></translation>
+            <translation>Rejeté</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>To Do</masterLabel>
-            <translation><!-- To Do --></translation>
+            <translation>A faire</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>To Validate</masterLabel>
-            <translation><!-- To Validate --></translation>
+            <translation>A valider</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Validated</masterLabel>
-            <translation><!-- Validated --></translation>
+            <translation>Validé</translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Title --></label>
+        <label>Titre</label>
         <name>Title__c</name>
     </fields>
     <fields>
@@ -65,37 +65,38 @@ Terminé: Data dic mis à jour ainsi que tous les environnements concernés --><
         <name>Type__c</name>
         <picklistValues>
             <masterLabel>Advanded Customization</masterLabel>
-            <translation><!-- Advanded Customization --></translation>
+            <translation>Paramétrage Avancé</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Customization</masterLabel>
-            <translation><!-- Customization --></translation>
+            <translation>Paramétrage</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Data Initialization</masterLabel>
-            <translation><!-- Data Initialization --></translation>
+            <translation>Initialisation de données</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Flow</masterLabel>
-            <translation><!-- Flow --></translation>
+            <translation>Flux</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Specific Development</masterLabel>
-            <translation><!-- Specific Development --></translation>
+            <translation>Développement spécifique</translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Data Dictionary Update  Required --></label>
+        <label>Dictionnaire de donnée à mettre à jour</label>
         <name>updateDataDic__c</name>
     </fields>
     <fields>
-        <label><!-- Specifications Update Required --></label>
+        <label>Spécifications à mettre à jour</label>
         <name>updateSpec__c</name>
     </fields>
     <fields>
-        <label><!-- Test Methods Update Required --></label>
+        <label>Test Method à mettre à jour</label>
         <name>updateTestMethod__c</name>
     </fields>
+    <gender>Masculine</gender>
     <layouts>
         <layout>Solution Layout</layout>
         <sections>
@@ -111,5 +112,6 @@ Terminé: Data dic mis à jour ainsi que tous les environnements concernés --><
             <section>Required Actions</section>
         </sections>
     </layouts>
-    <startsWith>Consonant</startsWith>
+    <nameFieldLabel><!-- # --></nameFieldLabel>
+    <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

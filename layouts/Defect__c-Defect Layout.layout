@@ -35,7 +35,7 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Detecté par ...</label>
+        <label>Detected By</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -54,7 +54,7 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Lié à</label>
+        <label>Related To</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
@@ -90,7 +90,7 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Suite à modification</label>
+        <label>Required Actions</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>

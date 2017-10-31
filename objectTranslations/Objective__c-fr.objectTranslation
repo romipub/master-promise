@@ -2,34 +2,33 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value>Release</value>
+        <value>Objectif Version</value>
     </caseValues>
     <caseValues>
         <plural>true</plural>
-        <value>Release</value>
+        <value>Objectifs Version</value>
     </caseValues>
     <fields>
         <label><!-- Description --></label>
         <name>Description__c</name>
     </fields>
     <fields>
-        <label><!-- End Date --></label>
-        <name>EndDate__c</name>
+        <label>Nom</label>
+        <name>Name__c</name>
     </fields>
     <fields>
-        <label><!-- Start Date --></label>
-        <name>StartDate__c</name>
+        <label>Version</label>
+        <name>Release__c</name>
+        <relationshipLabel>Objectifs</relationshipLabel>
     </fields>
+    <gender>Masculine</gender>
     <layouts>
-        <layout>Release Layout</layout>
+        <layout>Objective Layout</layout>
         <sections>
-            <label><!-- Description --></label>
-            <section>Description</section>
-        </sections>
-        <sections>
-            <label><!-- Links --></label>
+            <label>Liens Personnalisés</label>
             <section>Links</section>
         </sections>
     </layouts>
-    <startsWith>Consonant</startsWith>
+    <nameFieldLabel><!-- # --></nameFieldLabel>
+    <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

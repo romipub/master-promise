@@ -2,11 +2,11 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value>Workshop</value>
+        <value>Atelier</value>
     </caseValues>
     <caseValues>
         <plural>true</plural>
-        <value>Workshops</value>
+        <value>Ateliers</value>
     </caseValues>
     <fields>
         <label><!-- Agenda --></label>
@@ -25,23 +25,23 @@
         <name>Date__c</name>
     </fields>
     <fields>
-        <label><!-- Duration (H) --></label>
+        <label>Durée (H)</label>
         <name>Duration__c</name>
     </fields>
     <fields>
-        <label><!-- Goal Achievement --></label>
+        <label>Atteinte de l&apos;objectif</label>
         <name>GoalAchievement__c</name>
     </fields>
     <fields>
-        <label><!-- Location --></label>
+        <label>Emplacement</label>
         <name>Location__c</name>
         <picklistValues>
             <masterLabel>Default Location</masterLabel>
-            <translation><!-- Default Location --></translation>
+            <translation>Emplacement par défaut</translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Nb Attendees --></label>
+        <label>Nb Participants</label>
         <name>Nb_Attendees__c</name>
     </fields>
     <fields>
@@ -49,7 +49,7 @@
         <name>Nb_Participants__c</name>
     </fields>
     <fields>
-        <label><!-- Objectives --></label>
+        <label>Objectifs</label>
         <name>Objectives__c</name>
     </fields>
     <fields>
@@ -57,7 +57,7 @@
         <name>Phase__c</name>
         <picklistValues>
             <masterLabel>Cadrage</masterLabel>
-            <translation><!-- Cadrage --></translation>
+            <translation>Cadrage</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Design</masterLabel>
@@ -65,40 +65,40 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Release --></label>
+        <label>Version</label>
         <name>Release__c</name>
-        <relationshipLabel><!-- Workshop --></relationshipLabel>
+        <relationshipLabel>Ateliers</relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Scope --></label>
+        <label>Périmètre</label>
         <name>Scope__c</name>
     </fields>
     <fields>
-        <label><!-- Start Time --></label>
+        <label>Heure de Début</label>
         <name>StartTime__c</name>
     </fields>
     <fields>
-        <label><!-- Status --></label>
+        <label>Statut</label>
         <name>Status__c</name>
         <picklistValues>
             <masterLabel>Done</masterLabel>
-            <translation><!-- Done --></translation>
+            <translation>Réalisé</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Minutes not required</masterLabel>
-            <translation><!-- Minutes not required --></translation>
+            <translation>CR non requis</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Minutes sent</masterLabel>
-            <translation><!-- Minutes sent --></translation>
+            <translation>CR envoyé</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Planned</masterLabel>
-            <translation><!-- Planned --></translation>
+            <translation>Planifié</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Validated</masterLabel>
-            <translation><!-- Validated --></translation>
+            <translation>Validé</translation>
         </picklistValues>
     </fields>
     <fields>
@@ -118,33 +118,35 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Technical</masterLabel>
-            <translation><!-- Technical --></translation>
+            <translation>Technique</translation>
         </picklistValues>
     </fields>
+    <gender>Masculine</gender>
     <layouts>
         <layout>Workshop Layout</layout>
         <sections>
-            <label><!-- Additional Information --></label>
+            <label>Informations supplémentaires</label>
             <section>Additional Information</section>
         </sections>
         <sections>
-            <label><!-- Links --></label>
+            <label>Liens Personnalisés</label>
             <section>Links</section>
         </sections>
         <sections>
-            <label><!-- Location and Duration --></label>
+            <label>Emplacement et Durée</label>
             <section>Location and Duration</section>
         </sections>
         <sections>
-            <label><!-- Synthesis --></label>
+            <label>Synthèse</label>
             <section>Synthesis</section>
         </sections>
         <sections>
-            <label><!-- System Information --></label>
+            <label>Informations Systèmes</label>
             <section>System Information</section>
         </sections>
     </layouts>
-    <startsWith>Consonant</startsWith>
+    <nameFieldLabel>Nom</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
     <webLinks>
         <label><!-- Create_CR --></label>
         <name>Create_CR</name>

@@ -68,7 +68,7 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Compléments</label>
+        <label>Additional Information</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -85,7 +85,7 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Synthèse</label>
+        <label>Synthesis</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -108,7 +108,7 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Système</label>
+        <label>System Information</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -135,7 +135,7 @@
         <customLabel>true</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
-        <label>Liens Personnalisés</label>
+        <label>Links</label>
         <layoutColumns/>
         <layoutColumns/>
         <layoutColumns/>

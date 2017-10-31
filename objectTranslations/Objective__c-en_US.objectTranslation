@@ -22,10 +22,10 @@
         <relationshipLabel><!-- Objectives --></relationshipLabel>
     </fields>
     <layouts>
-        <layout>Présentation Objectif</layout>
+        <layout>Objective Layout</layout>
         <sections>
-            <label><!-- Liens Personnalisés --></label>
-            <section>Liens Personnalisés</section>
+            <label><!-- Links --></label>
+            <section>Links</section>
         </sections>
     </layouts>
     <startsWith>Vowel</startsWith>

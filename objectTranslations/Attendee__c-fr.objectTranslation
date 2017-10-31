@@ -2,19 +2,19 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value>Attendee</value>
+        <value>Participant</value>
     </caseValues>
     <caseValues>
         <plural>true</plural>
-        <value>Attendees</value>
+        <value>Participants</value>
     </caseValues>
     <fields>
-        <label><!-- Attendee --></label>
+        <label>Participant</label>
         <name>Attendee__c</name>
-        <relationshipLabel><!-- Attendees --></relationshipLabel>
+        <relationshipLabel>Participants</relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Notification Sent --></label>
+        <label>Notification Envoyée</label>
         <name>NotificationSent__c</name>
     </fields>
     <fields>
@@ -23,28 +23,30 @@
         <name>RACI__c</name>
     </fields>
     <fields>
-        <label><!-- Status --></label>
+        <label>Statut</label>
         <name>Status__c</name>
         <picklistValues>
             <masterLabel>Invited</masterLabel>
-            <translation><!-- Invited --></translation>
+            <translation>Invité</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Present</masterLabel>
-            <translation><!-- Present --></translation>
+            <translation>Présent</translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Workshop --></label>
+        <label>Atelier</label>
         <name>Workshop__c</name>
-        <relationshipLabel><!-- Attendees --></relationshipLabel>
+        <relationshipLabel>Participants</relationshipLabel>
     </fields>
+    <gender>Masculine</gender>
     <layouts>
         <layout>Attendee Layout</layout>
         <sections>
-            <label><!-- Links --></label>
+            <label>Liens Personnalisés</label>
             <section>Links</section>
         </sections>
     </layouts>
+    <nameFieldLabel><!-- # --></nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

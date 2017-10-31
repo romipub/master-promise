@@ -2,46 +2,46 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value>Change Awareness</value>
+        <value><!-- Change Awareness --></value>
     </caseValues>
     <caseValues>
         <plural>true</plural>
-        <value>Changes Awareness</value>
+        <value><!-- Change Awareness --></value>
     </caseValues>
     <fields>
-        <label><!-- Concerned Users --></label>
+        <label>Utilisateurs concernés</label>
         <name>ConcernedUsers__c</name>
     </fields>
     <fields>
-        <label><!-- Number of Users --></label>
+        <label>Nombre d&apos;utilisateur</label>
         <name>NumberUsers__c</name>
     </fields>
     <fields>
-        <label><!-- Risk Evaluation --></label>
+        <label>Evaluation du Risque</label>
         <name>Risk_Evaluation__c</name>
         <picklistValues>
             <masterLabel>1 - Low</masterLabel>
-            <translation><!-- 1 - Low --></translation>
+            <translation>1 - Faible</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>2 - Medium</masterLabel>
-            <translation><!-- 2 - Medium --></translation>
+            <translation>2 - Moyen</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>3 - High</masterLabel>
-            <translation><!-- 3 - High --></translation>
+            <translation>3 - Fort</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>4 - Critical</masterLabel>
-            <translation><!-- 4 - Critical --></translation>
+            <translation>4 - Critique</translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Time --></label>
+        <label>Temps passé sur le sujet</label>
         <name>Time__c</name>
         <picklistValues>
             <masterLabel>1 hour</masterLabel>
-            <translation><!-- 1 hour --></translation>
+            <translation>1 heure</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>15 minutes</masterLabel>
@@ -57,19 +57,19 @@
         <name>Type__c</name>
         <picklistValues>
             <masterLabel>Difficulties of attendees to understand</masterLabel>
-            <translation><!-- Difficulties of attendees to understand --></translation>
+            <translation>Difficultés des participants à se comprendre</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Difficulties to be agreed</masterLabel>
-            <translation><!-- Difficulties to be agreed --></translation>
+            <translation>Difficultés à se mettre d&apos;accord</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Difficulties to give an answer to your questions</masterLabel>
-            <translation><!-- Difficulties to give an answer to your questions --></translation>
+            <translation>Difficultés à donner une réponse à vos questions</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Mentioned Fears</masterLabel>
-            <translation><!-- Mentioned Fears --></translation>
+            <translation>Craintes Evoquées</translation>
         </picklistValues>
     </fields>
     <fields>
@@ -77,22 +77,23 @@
         <name>VerbatimSituation__c</name>
     </fields>
     <fields>
-        <label><!-- Workshop --></label>
+        <label>Atelier</label>
         <name>Workshop__c</name>
         <relationshipLabel><!-- Changes Awareness --></relationshipLabel>
     </fields>
+    <gender><!-- Masculine --></gender>
     <layouts>
         <layout>Change Awareness Layout</layout>
         <sections>
-            <label><!-- Concerned Users --></label>
+            <label>Utilisateurs</label>
             <section>Concerned Users</section>
         </sections>
         <sections>
-            <label><!-- Custom Links --></label>
+            <label>Liens personnalisés</label>
             <section>Custom Links</section>
         </sections>
         <sections>
-            <label><!-- Risk --></label>
+            <label>Risque</label>
             <section>Risk</section>
         </sections>
         <sections>
@@ -100,5 +101,6 @@
             <section>Verbatim</section>
         </sections>
     </layouts>
-    <startsWith>Consonant</startsWith>
+    <nameFieldLabel><!-- Change Awareness --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
 </CustomObjectTranslation>
