@@ -13,5 +13,4 @@
     <tab>Defect__c</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
-    <tab>PROMISE_Task</tab>
 </CustomApplication>

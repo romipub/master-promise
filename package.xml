@@ -10,6 +10,7 @@
     </types>
     <types>
         <members>*</members>
+        <members>Activity</members>
         <members>Event</members>
         <members>Task</members>
         <name>CustomObject</name>
@@ -30,12 +31,11 @@
         <members>*</members>
         <members>Appli</members>
         <members>Appli/Logo</members>
-        <members>Appli/Logo_Atlantic</members>
         <name>Document</name>
     </types>
     <types>
         <members>*</members>
-        <name>Folder</name>
+        <name>GlobalValueSet</name>
     </types>
     <types>
         <members>*</members>
