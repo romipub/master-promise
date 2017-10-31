@@ -38,11 +38,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Workshop_Page_d_enregistrement</content>
-        <formFactor>Large</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
+        <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>Workshop</compactLayoutAssignment>
@@ -143,24 +139,9 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Montparnasse - Paris</fullName>
-                    <default>true</default>
-                    <label>Montparnasse - Paris</label>
-                </value>
-                <value>
-                    <fullName>Nantes</fullName>
+                    <fullName>Default Location</fullName>
                     <default>false</default>
-                    <label>Nantes</label>
-                </value>
-                <value>
-                    <fullName>La Roche-sur-Yon</fullName>
-                    <default>false</default>
-                    <label>La Roche-sur-Yon</label>
-                </value>
-                <value>
-                    <fullName>Lyon</fullName>
-                    <default>false</default>
-                    <label>Lyon</label>
+                    <label>Default Location</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
