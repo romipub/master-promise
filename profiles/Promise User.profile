@@ -554,16 +554,6 @@
         <object>Workshop__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Metric.Completion</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>true</default>
-        <recordType>Metric.Progress</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Configuration__c</tab>
         <visibility>DefaultOn</visibility>
